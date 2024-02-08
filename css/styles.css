@@ -41,19 +41,14 @@ a {
     display: flex;
     align-items: center;
 }
-section {
-    padding: 120px 0;
-}
 .content-header {
     border-bottom: 1px solid #e7e9fc;
 }
-/* .content-header .container {
-    display: flex;
-} */
-
 .menu-navigator {
-    padding: 24px 0;
     gap: 40px;
+}
+.links {
+    padding: 24px 0;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -151,7 +146,7 @@ span {
 background-color: #404bbf;
 }
 .advant-part {
-    padding: 120px;
+    padding: 120px 0;
 }
 .advantages {
     font-weight: 500;
@@ -177,12 +172,14 @@ background-color: #404bbf;
 .role {
     color: #434455;
     font-size: 16px;
-    flex-basis: calc((100% - 24*3)/4);
 }
 .role-dev {
     color: #434455;
     font-size: 16px;
     text-align: center;
+}
+.adv-items {
+    width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
     position: absolute;
@@ -212,6 +209,7 @@ background-color: #404bbf;
 }
 .team-cards {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .team-info {
     background: #FFFFFF;
