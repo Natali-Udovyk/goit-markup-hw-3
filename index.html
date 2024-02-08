@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,21 +14,22 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="/css/styles.css">
     <!-- <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">     -->
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
+    <header class="content-header">
+      <div class="container nav-container">
+        <nav class="navigation">
           <a href="./index.html" class="logo">Web<span>Studio</span></a>
-          <ul>
+          <ul class="menu-navigator">
             <li><a href="./index.html" class="link">Studio</a></li>
             <li><a href="" class="link">Portfolio</a></li>
             <li><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
         <address class="addres-info">
-          <ul>
+          <ul class="information">
             <li><a href="mailto:info@devstudio.com" class="link-address">info@devstudio.com</a></li>
             <li><a href="tel:+110001111111" class="link-address">+11 (000) 111-11-11</a></li>
           </ul>
@@ -43,10 +43,10 @@
           <button type="button" class="order-button">Order Service</button>
         </div>
       </section>
-      <section>
+      <section class="advant-part">
         <div class="container">
           <h2 class="visually-hidden">Our advantages</h2>
-        <ul>
+        <ul class="advant-list">
           <li>
             <h3 class="advantages" >Strategy</h3>
             <p class="role" >
@@ -81,63 +81,83 @@
       <section class="team-cards">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-        <ul>
+        <ul class="team-items">
           <li class="team-info" >
             <img src="./images/img-1.jpg" alt="person-1" width="264" />
-            <h3 class="name-item" >Mark Guerrero</h3>
-            <p class="role" >Product Designer</p>
+            <div class="info-developer">
+              <h3 class="name-item" >Mark Guerrero</h3>
+              <p class="role-dev" >Product Designer</p>
+            </div>
           </li>
           <li class="team-info" >
             <img src="./images/img-2.jpg" alt="person-2" width="264" />
-            <h3 class="name-item" >Tom Ford</h3>
-            <p class="role" >Frontend Developer</p>
+            <div class="info-developer">
+              <h3 class="name-item" >Tom Ford</h3>
+              <p class="role-dev" >Frontend Developer</p>
+            </div>
           </li>
           <li class="team-info" >
             <img src="./images/img-3.jpg" alt="person-3" width="264" />
-            <h3 class="name-item" >Camila Garcia</h3>
-            <p class="role" >Marketing</p>
+            <div class="info-developer">
+              <h3 class="name-item" >Camila Garcia</h3>
+              <p class="role-dev" >Marketing</p>
+            </div>
           </li>
           <li class="team-info" >
             <img src="./images/img-4.jpg" alt="person-4" width="264" />
-            <h3 class="name-item" >Daniel Wilson</h3>
-            <p class="role" >UI Designer</p>
+            <div class="info-developer">
+              <h3 class="name-item" >Daniel Wilson</h3>
+              <p class="role-dev" >UI Designer</p>
+            </div>
           </li>
         </ul>
         </div>
       </section>
-      <section>
+      <section class="portfolio-list">
         <div class="container">
           <h2 class="portfolio" >Our Portfolio</h2>
         <ul class="cards-set">
           <li class="item-card" >
             <img  src="./images/image-5.jpg" alt="App-for-banking" width="360" />
-            <h3 class="title-item" >Banking App</h3>
-            <p class="describe" >App</p>
+            <div class="describe-title">
+              <h3 class="title-item" >Banking App</h3>
+              <p class="describe" >App</p>
+            </div>
           </li>
           <li class="item-card" >
             <img src="./images/image-4.jpg" alt="Marketing-payment" width="360" />
-            <h3 class="title-item" >Cashless Payment</h3>
-            <p class="describe" >Marketing</p>
+            <div class="describe-title" >
+              <h3 class="title-item" >Cashless Payment</h3>
+              <p class="describe" >Marketing</p>
+            </div>
           </li>
           <li class="item-card" >
             <img  src="./images/image-3.jpg" alt="Meditation-app" width="360" />
-            <h3 class="title-item" >Meditation App</h3>
-            <p class="describe" >App</p>
+            <div class="describe-title" >
+              <h3 class="title-item" >Meditation App</h3>
+              <p class="describe" >App</p>
+            </div>
           </li>
           <li class="item-card" >
             <img  src="./images/image-2.jpg" alt="Taxi-service" width="360" />
-            <h3 class="title-item" >Taxi Service</h3>
-            <p class="describe" >Marketing</p>
+            <div class="describe-title" >
+              <h3 class="title-item" >Taxi Service</h3>
+              <p class="describe" >Marketing</p>
+            </div>
           </li>
           <li class="item-card" >
             <img  src="./images/image-1.jpg" alt="Screen-illustrations" width="360" />
-            <h3 class="title-item" >Screen Illustrations</h3>
-            <p class="describe" >Design</p>
+            <div class="describe-title" >
+              <h3 class="title-item" >Screen Illustrations</h3>
+              <p class="describe" >Design</p>
+            </div>
           </li>
           <li class="item-card" >
             <img  src="./images/image-6.jpg" alt="Online-courses" width="360" />
-            <h3 class="title-item" >Online Courses</h3>
-            <p class="describe" >Marketing</p>
+            <div class="describe-title" >
+              <h3 class="title-item" >Online Courses</h3>
+              <p class="describe" >Marketing</p>
+            </div>
           </li>
         </ul>
         </div>
