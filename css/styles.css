@@ -139,7 +139,6 @@ span {
     border-radius: 4px;
     padding: 16px 32px;
     margin: 0 auto;
-
 }
 .order-button:hover,
 .order-button:focus  {
@@ -248,7 +247,6 @@ background-color: #404bbf;
     color: #2e2f42;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
 }
 .describe {
     font-size: 16px;
@@ -269,7 +267,6 @@ background-color: #404bbf;
     flex-direction: column;
     padding: 100px 0;
 }
-
 .logo-footer {
     font-weight: 700;
     font-family: "Raleway", sans-serif;
