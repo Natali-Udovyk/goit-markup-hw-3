@@ -46,10 +46,11 @@ a {
 }
 .menu-navigator {
     gap: 40px;
-}
-.links {
     padding: 24px 0;
 }
+/* .links {
+    padding: 24px 0;
+} */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
