@@ -46,7 +46,7 @@ a {
 }
 .menu-navigator {
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 /* .links {
     padding: 24px 0;
@@ -72,6 +72,7 @@ span {
     gap: 40px;
     font-weight: 500;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .link:hover,
 .link:focus {
